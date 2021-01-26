@@ -17,7 +17,8 @@ public class LoginTest {
 		} else {
 			System.out.println(String.format("Title is not matching ---expected is:%s but actual is : %s",expectedtitle,actualTitle ));
 		}
-//System.out.println(actualTitle);
+        System.out.println(actualTitle);
+        System.out.println(" my name is ");
 		driver.quit();
 
 	}
